@@ -35,7 +35,7 @@ def fetch_data_from_db(product_id):
     }
 
     query = f"""
-    SELECT * FROM public.simplified_trading_data 
+    SELECT * FROM trading_data 
     WHERE product_id = '{product_id}' 
     ORDER BY start ASC;
     """
@@ -43,6 +43,8 @@ def fetch_data_from_db(product_id):
     try:
         connection = psycopg2.connect(**connection_params)
         dataframe = pd.read_sql_query(query, connection)
+        #print head
+        print(dataframe.head())
         print(f"Data fetched successfully for {product_id}.")
     except Exception as e:
         print(f"Failed to fetch data from database for {product_id}: {e}")
@@ -231,17 +233,31 @@ class EMARibbonStrategy(bt.Strategy):
         return price_drop
 
     def check_sell_conditions(self, data):
+        # Check if there's a valid position in the current data
+        position = self.getposition(data)
+        
+        if not position or position.size <= 0:
+            # If no position or position size is zero or negative, don't sell
+            return False
+
         data_name = data._name
         previous_trade = self.trades[data_name][-1]
-        price_increase_threshold = self.params.price_move
 
-        if (data.datetime.datetime(0) - previous_trade['Date/Time']).total_seconds() < 1500:
-            price_increase_threshold = self.params.increase_threshold
-
+        # Ensure there's a previous buy trade to compare against
         if previous_trade['Buy/Sell'] != 'Buy':
             return False
 
-        price_increase = (data.close[0] - previous_trade['Price']) / previous_trade['Price'] > price_increase_threshold
+        # Apply your existing logic to determine sell conditions
+        # Calculate price increase from last trade price
+        price_increase = (data.close[0] - previous_trade['Price']) / previous_trade['Price'] > self.params.price_move
+        
+        # Include additional conditions such as time checks between previous buy and current potential sell
+        if (data.datetime.datetime(0) - previous_trade['Date/Time']).total_seconds() < 1500:
+            price_increase_threshold = self.params.increase_threshold
+        else:
+            price_increase_threshold = self.params.price_move
+
+        # Return whether sell conditions are met
         return price_increase
 
 if __name__ == '__main__':

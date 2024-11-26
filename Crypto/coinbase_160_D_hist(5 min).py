@@ -203,23 +203,13 @@ def fetch_products():
             # print(product_df[product_df['product_id'] == 'CVX-USD'].index)
 
             # #remove all products before ATOM-USD
-            product_df = product_df.iloc[product_df[product_df['product_id'] == 'ATOM-USD'].index[0]:]
+            #product_df = product_df.iloc[product_df[product_df['product_id'] == 'ATOM-USD'].index[0]:]
 
             # #reindex everything after removing products before CVX-USD
             # product_df = product_df.reset_index(drop=True)
 
             # #print lentgh of product_df
             # print(len(product_df))
-
-            #get tickers from Countbase_Liquid.txt
-            with open('Coinbase_Liquid.txt') as f:
-                products = f.readlines()
-            products = [x.strip() for x in products]
-
-            # Check what % of these products exist in product_df
-            print(len(product_df[product_df['product_id'].isin(products)]) / len(products))
-            
-
             
     
             if isFetch:

@@ -1,0 +1,621 @@
+2024-11-24 20:30:04,944 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:05,632 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:06,176 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:06,716 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:07,231 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:07,859 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:08,373 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:08,972 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:09,735 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:10,417 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:10,954 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:11,538 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:12,106 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:12,728 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:13,266 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:13,934 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:14,454 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:14,999 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:15,598 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:16,197 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:16,775 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:17,478 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:18,035 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:18,667 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:19,542 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:20,459 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:21,098 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:21,828 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:22,466 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:23,042 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:23,677 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:24,175 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:24,775 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:30:25,575 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:10,549 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:11,076 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:11,834 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:12,459 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:13,031 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:13,776 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:14,290 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:15,023 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:15,707 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:16,208 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:16,827 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:17,442 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:17,943 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:18,621 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:19,168 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:19,768 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:20,459 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:21,073 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:21,794 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:22,425 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:23,003 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:23,705 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:24,238 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:24,908 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:25,444 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:25,958 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:26,539 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:27,048 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:27,862 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:28,411 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:28,967 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:29,589 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:30,270 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:30,892 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
+2024-11-24 20:35:31,615 - ERROR - Exception in update_charts thread:
+Traceback (most recent call last):
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 328, in update_charts
+    trader.calculate_total_portfolio_value(market_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/claytondavis/Desktop/trade-buddy/trade-buddy/Crypto/paper_trade_big_drop.py", line 90, in calculate_total_portfolio_value
+    price = market_data[coin]['close'].iloc[0]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'DIA-USD'
