@@ -110,7 +110,7 @@ class PaperTrader:
             if quantity > 0:
                 # Get the current market price for this coin
                 if coin in market_data and not market_data[coin].empty:
-                    price = market_data[coin]['close'].iloc[-1]
+                    price = market_data[coin]['close'].iloc[0]
                     total_value += quantity * price
         print(f"Total portfolio value: {total_value:.2f}")
         return total_value
@@ -190,8 +190,8 @@ class PaperTrader:
             return
 
         # Get the latest data
-        latest = df_candles.iloc[-1]
-        previous = df_candles.iloc[-2]
+        latest = df_candles.iloc[0]
+        previous = df_candles.iloc[-1]
         print(f"Latest: {latest['time']}, Close: {latest['close']}, Previous: {previous['time']}, Close: {previous['close']}")
 
         # Access parameters directly from self.params
@@ -256,9 +256,9 @@ def main_trading_logic(coins):
     commission_rate = 0
     params = {
         'profit_target': 0.027, # how much to "motivate" the trader to bet
-        'price_move': 0.0001, # when to sell
-        'look_back': 10, # how far back to look when calculating probability
-        'drop_threshold': -0.0001, # when to buy
+        'price_move': 0.00005, # when to sell
+        'look_back': 100, # how far back to look when calculating probability
+        'drop_threshold': -0.00005, # when to buy
     }
 
     trader = PaperTrader(
@@ -288,7 +288,7 @@ def main_trading_logic(coins):
                 if not df_new.empty:
                     df_new = df_new.sort_values(by='time').reset_index(drop=True)
                     last_time = cumulative_data[coin]['time'].max() if not cumulative_data[coin].empty else None
-                    new_time = df_new['time'].iloc[-1]
+                    new_time = df_new['time'].iloc[0]
                     if last_time is None or new_time > last_time:
                         # Append the new data
                         cumulative_data[coin] = pd.concat([cumulative_data[coin], df_new], ignore_index=True)
@@ -299,7 +299,7 @@ def main_trading_logic(coins):
                         print(f"Appended new data for {coin}")
                     elif new_time == last_time:
                         # Replace the last candle
-                        cumulative_data[coin].iloc[-1] = df_new.iloc[-1]
+                        cumulative_data[coin].iloc[0] = df_new.iloc[0]
                         # Save market data to CSV
                         save_market_data_to_csv(cumulative_data[coin], coin)
                         print(f"Replaced last candle for {coin}")
