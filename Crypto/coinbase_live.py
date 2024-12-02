@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 from dotenv import load_dotenv
 from coinbase.rest import RESTClient  # Import RESTClient from coinbase.rest
+from coinbase_portfolio import PortfolioManager
 
 # Load environment variables from .env file
 load_dotenv()
@@ -15,7 +16,7 @@ api_secret = os.getenv("COINBASE_API_SECRET").strip()
 # Create the REST client
 client = RESTClient(api_key=api_key, api_secret=api_secret)
 
-
+# Does not change
 def fetch_historical_data(product_id, granularity='ONE_MINUTE', limit=300):
     try:
         # Calculate start and end times
@@ -79,11 +80,11 @@ def fetch_historical_data(product_id, granularity='ONE_MINUTE', limit=300):
         print(f"Error fetching data for {product_id}: {e}")
         return pd.DataFrame()
 
-
+# Does not change
 def get_bar_data(symbol, granularity='ONE_MINUTE', limit=300):
     return fetch_historical_data(symbol, granularity, limit)
 
-
+#Does not change
 def save_market_data_to_csv(df_candles, coin, file_name_prefix="market_data"):
     try:
         file_name = f"{file_name_prefix}_{coin.replace('-', '_')}.csv"
@@ -93,7 +94,7 @@ def save_market_data_to_csv(df_candles, coin, file_name_prefix="market_data"):
         print(f"Error saving market data for {coin} to CSV: {e}")
 
 
-class PaperTrader:
+class LiveTrader:
     def __init__(self, initial_cash, commission_rate, params):
         self.cash = initial_cash
         self.portfolio = {}
@@ -104,6 +105,7 @@ class PaperTrader:
         # Set strategy parameters
         self.params = params
 
+    # this can be retrieved from the portfolio class
     def calculate_total_portfolio_value(self, market_data):
         total_value = self.cash  # Start with current cash balance
         for coin, quantity in self.portfolio.items():
@@ -128,10 +130,12 @@ class PaperTrader:
         commission_fee = self.commission(cost)
         total_cost = cost + commission_fee
         trade_datetime = datetime.now()  # Capture current datetime
+
+        #this will be replaced from current cash in portfio class
         if self.cash >= total_cost:
             self.cash -= total_cost
             self.portfolio[coin] = self.portfolio.get(coin, 0) + quantity
-            # Store purchase info including commission and datetime
+            # this can be replaced. Will come from Portfolio class.
             self.last_purchase_info[coin] = {
                 'price': price,
                 'quantity': quantity,
@@ -145,6 +149,8 @@ class PaperTrader:
             print("Not enough cash to complete the purchase.")
 
     def sell(self, coin, price):
+
+        #this will be replaced from current cash in portfio class
         quantity = self.portfolio.get(coin, 0)
         if quantity > 0:
             revenue = price * quantity
@@ -198,7 +204,7 @@ class PaperTrader:
         price_move = self.params['price_move']
         profit_target = self.params['profit_target']
 
-        # Buy condition: significant price drop and not currently holding the coin
+        # This will be replaced from the portfolio class
         if self.portfolio.get(coin, 0) == 0:
             # Calculate probability
             p = self.calculate_probability(df_candles)
@@ -211,7 +217,7 @@ class PaperTrader:
             if max_quantity > 0:
                 self.buy(coin, latest['close'], max_quantity)
                 print(f"BUY: {coin}, Price: {latest['close']}, Quantity: {max_quantity}")
-        # Sell condition: price increase since purchase
+        # This will be replaced from the portfolio class
         elif self.portfolio.get(coin, 0) > 0:
             if coin in self.last_purchase_info:
                 purchase_info = self.last_purchase_info[coin]
@@ -250,9 +256,17 @@ class PaperTrader:
         return probability
 
 def main_trading_logic(coins):
-    # Define your initial parameters (must be provided)
-    initial_cash = 100000
-    commission_rate = 0
+    #get portfolio data
+    portfolio_manager = PortfolioManager()
+    portfolio_uuid = portfolio_manager.list_portfolio()
+    portfolio_data = portfolio_manager.get_portfolio_breakdown(portfolio_uuid)
+    asset_names = coins
+    uuid_list = ['6639e955-e2c7-5a51-b140-a0181f2f536b']
+    filtered_positions = portfolio_manager.filter_portfolio(portfolio_data, asset_names, uuid_list, name_filter_mode='exclude', uuid_filter_mode='exclude')
+    #get the total cash balance
+    initial_cash =  portfolio_manager.extract_total_cash_balance(portfolio_data)
+ # this will be retrieved from the portfolio class
+    commission_rate = 0.006
     params = {
         'profit_target': 0.027, # how much to "motivate" the trader to bet
         'price_move': 0.00005, # when to sell
@@ -260,7 +274,7 @@ def main_trading_logic(coins):
         'drop_threshold': -0.00005, # when to buy
     }
 
-    trader = PaperTrader(
+    trader = LiveTrader(
         initial_cash=initial_cash,
         commission_rate=commission_rate,
         params=params
