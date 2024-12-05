@@ -1,0 +1,374 @@
+2024-12-04 21:32:26,473 ERROR: portfolio_data is not a list.
+2024-12-04 21:32:26,473 ERROR: portfolio_data is not a list.
+2024-12-04 21:32:27,166 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:32:27,166 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:32:27,290 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:32:27,290 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:32:27,414 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:32:27,414 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:32:27,415 INFO: Buy 0.000096 BTC-USD at 99624.78, Commission: 0.07
+2024-12-04 21:32:27,415 INFO: Buy 0.000096 BTC-USD at 99624.78, Commission: 0.07
+2024-12-04 21:32:27,431 INFO: Buy 0.000072 ETH-USD at 3839.11, Commission: 0.00
+2024-12-04 21:32:27,431 INFO: Buy 0.000072 ETH-USD at 3839.11, Commission: 0.00
+2024-12-04 21:32:27,437 INFO: Buy 0.000081 LTC-USD at 129.75, Commission: 0.00
+2024-12-04 21:32:27,437 INFO: Buy 0.000081 LTC-USD at 129.75, Commission: 0.00
+2024-12-04 21:32:27,437 INFO: Total portfolio value: 9.93
+2024-12-04 21:32:27,437 INFO: Total portfolio value: 9.93
+2024-12-04 21:32:27,439 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:32:27,439 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:33:27,581 INFO: Appended new data for BTC-USD
+2024-12-04 21:33:27,581 INFO: Appended new data for BTC-USD
+2024-12-04 21:33:27,751 INFO: Appended new data for ETH-USD
+2024-12-04 21:33:27,751 INFO: Appended new data for ETH-USD
+2024-12-04 21:33:27,881 INFO: Appended new data for LTC-USD
+2024-12-04 21:33:27,881 INFO: Appended new data for LTC-USD
+2024-12-04 21:33:27,882 INFO: Sell 0.000096 BTC-USD at 99825.20, Commission: 0.07
+2024-12-04 21:33:27,882 INFO: Sell 0.000096 BTC-USD at 99825.20, Commission: 0.07
+2024-12-04 21:33:27,882 INFO: Sell 0.000072 ETH-USD at 3845.84, Commission: 0.00
+2024-12-04 21:33:27,882 INFO: Sell 0.000072 ETH-USD at 3845.84, Commission: 0.00
+2024-12-04 21:33:27,882 INFO: Total portfolio value: 9.87
+2024-12-04 21:33:27,882 INFO: Total portfolio value: 9.87
+2024-12-04 21:33:27,883 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:33:27,883 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:34:28,010 INFO: Appended new data for BTC-USD
+2024-12-04 21:34:28,010 INFO: Appended new data for BTC-USD
+2024-12-04 21:34:28,135 INFO: Appended new data for ETH-USD
+2024-12-04 21:34:28,135 INFO: Appended new data for ETH-USD
+2024-12-04 21:34:28,269 INFO: Appended new data for LTC-USD
+2024-12-04 21:34:28,269 INFO: Appended new data for LTC-USD
+2024-12-04 21:34:28,270 INFO: Buy 0.000095 BTC-USD at 99862.88, Commission: 0.07
+2024-12-04 21:34:28,270 INFO: Buy 0.000095 BTC-USD at 99862.88, Commission: 0.07
+2024-12-04 21:34:28,271 INFO: Buy 0.000071 ETH-USD at 3857.76, Commission: 0.00
+2024-12-04 21:34:28,271 INFO: Buy 0.000071 ETH-USD at 3857.76, Commission: 0.00
+2024-12-04 21:34:28,272 INFO: Total portfolio value: 9.80
+2024-12-04 21:34:28,272 INFO: Total portfolio value: 9.80
+2024-12-04 21:34:28,274 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:34:28,274 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:35:35,754 ERROR: portfolio_data is not a list.
+2024-12-04 21:35:35,754 ERROR: portfolio_data is not a list.
+2024-12-04 21:35:36,427 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:35:36,427 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:35:36,544 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:35:36,544 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:35:36,715 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:35:36,715 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:35:37,009 INFO: Buy 0.003690 BTC-USD at 99981.69, Commission: 2.77
+2024-12-04 21:35:37,009 INFO: Buy 0.003690 BTC-USD at 99981.69, Commission: 2.77
+2024-12-04 21:35:37,190 INFO: Buy 0.002747 ETH-USD at 3845.88, Commission: 0.08
+2024-12-04 21:35:37,190 INFO: Buy 0.002747 ETH-USD at 3845.88, Commission: 0.08
+2024-12-04 21:35:37,485 INFO: Buy 0.004177 LTC-USD at 128.82, Commission: 0.00
+2024-12-04 21:35:37,485 INFO: Buy 0.004177 LTC-USD at 128.82, Commission: 0.00
+2024-12-04 21:35:37,746 ERROR: portfolio_data is not a list.
+2024-12-04 21:35:37,746 ERROR: portfolio_data is not a list.
+2024-12-04 21:35:37,747 INFO: Total portfolio value: 380.15
+2024-12-04 21:35:37,747 INFO: Total portfolio value: 380.15
+2024-12-04 21:35:37,750 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:35:37,750 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:36:37,880 INFO: Appended new data for BTC-USD
+2024-12-04 21:36:37,880 INFO: Appended new data for BTC-USD
+2024-12-04 21:36:37,993 INFO: Appended new data for ETH-USD
+2024-12-04 21:36:37,993 INFO: Appended new data for ETH-USD
+2024-12-04 21:36:38,113 INFO: Appended new data for LTC-USD
+2024-12-04 21:36:38,113 INFO: Appended new data for LTC-USD
+2024-12-04 21:36:38,310 INFO: Sell 0.003690 BTC-USD at 100088.12, Commission: 2.77
+2024-12-04 21:36:38,310 INFO: Sell 0.003690 BTC-USD at 100088.12, Commission: 2.77
+2024-12-04 21:36:38,496 INFO: Sell 0.002747 ETH-USD at 3848.47, Commission: 0.08
+2024-12-04 21:36:38,496 INFO: Sell 0.002747 ETH-USD at 3848.47, Commission: 0.08
+2024-12-04 21:36:38,719 INFO: Sell 0.004177 LTC-USD at 129.18, Commission: 0.00
+2024-12-04 21:36:38,719 INFO: Sell 0.004177 LTC-USD at 129.18, Commission: 0.00
+2024-12-04 21:36:39,107 ERROR: portfolio_data is not a list.
+2024-12-04 21:36:39,107 ERROR: portfolio_data is not a list.
+2024-12-04 21:36:39,107 INFO: Total portfolio value: 377.70
+2024-12-04 21:36:39,107 INFO: Total portfolio value: 377.70
+2024-12-04 21:36:39,111 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:36:39,111 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:38:05,706 ERROR: portfolio_data is not a list.
+2024-12-04 21:38:05,706 ERROR: portfolio_data is not a list.
+2024-12-04 21:38:06,363 WARNING: No new data for BTC-USD.
+2024-12-04 21:38:06,363 WARNING: No new data for BTC-USD.
+2024-12-04 21:38:06,363 INFO: Using last known data for BTC-USD.
+2024-12-04 21:38:06,363 INFO: Using last known data for BTC-USD.
+2024-12-04 21:38:06,502 WARNING: No new data for ETH-USD.
+2024-12-04 21:38:06,502 WARNING: No new data for ETH-USD.
+2024-12-04 21:38:06,502 INFO: Using last known data for ETH-USD.
+2024-12-04 21:38:06,502 INFO: Using last known data for ETH-USD.
+2024-12-04 21:38:06,610 WARNING: No new data for LTC-USD.
+2024-12-04 21:38:06,610 WARNING: No new data for LTC-USD.
+2024-12-04 21:38:06,611 INFO: Using last known data for LTC-USD.
+2024-12-04 21:38:06,611 INFO: Using last known data for LTC-USD.
+2024-12-04 21:38:06,846 INFO: Buy 0.003689 BTC-USD at 99970.29, Commission: 2.77
+2024-12-04 21:38:06,846 INFO: Buy 0.003689 BTC-USD at 99970.29, Commission: 2.77
+2024-12-04 21:38:07,014 INFO: Buy 0.002714 ETH-USD at 3838.25, Commission: 0.08
+2024-12-04 21:38:07,014 INFO: Buy 0.002714 ETH-USD at 3838.25, Commission: 0.08
+2024-12-04 21:38:07,189 INFO: Buy 0.005249 LTC-USD at 129.29, Commission: 0.01
+2024-12-04 21:38:07,189 INFO: Buy 0.005249 LTC-USD at 129.29, Commission: 0.01
+2024-12-04 21:38:07,452 ERROR: portfolio_data is not a list.
+2024-12-04 21:38:07,452 ERROR: portfolio_data is not a list.
+2024-12-04 21:38:07,454 INFO: Total portfolio value: 379.99
+2024-12-04 21:38:07,454 INFO: Total portfolio value: 379.99
+2024-12-04 21:38:07,457 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:38:07,457 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:39:07,578 WARNING: No new data for BTC-USD.
+2024-12-04 21:39:07,578 WARNING: No new data for BTC-USD.
+2024-12-04 21:39:07,578 INFO: Using last known data for BTC-USD.
+2024-12-04 21:39:07,578 INFO: Using last known data for BTC-USD.
+2024-12-04 21:39:07,680 WARNING: No new data for ETH-USD.
+2024-12-04 21:39:07,680 WARNING: No new data for ETH-USD.
+2024-12-04 21:39:07,681 INFO: Using last known data for ETH-USD.
+2024-12-04 21:39:07,681 INFO: Using last known data for ETH-USD.
+2024-12-04 21:39:07,815 WARNING: No new data for LTC-USD.
+2024-12-04 21:39:07,815 WARNING: No new data for LTC-USD.
+2024-12-04 21:39:07,816 INFO: Using last known data for LTC-USD.
+2024-12-04 21:39:07,816 INFO: Using last known data for LTC-USD.
+2024-12-04 21:39:08,227 ERROR: portfolio_data is not a list.
+2024-12-04 21:39:08,227 ERROR: portfolio_data is not a list.
+2024-12-04 21:39:08,228 INFO: Total portfolio value: 379.99
+2024-12-04 21:39:08,228 INFO: Total portfolio value: 379.99
+2024-12-04 21:39:08,232 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:39:08,232 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:40:08,542 WARNING: No new data for BTC-USD.
+2024-12-04 21:40:08,542 WARNING: No new data for BTC-USD.
+2024-12-04 21:40:08,543 INFO: Using last known data for BTC-USD.
+2024-12-04 21:40:08,543 INFO: Using last known data for BTC-USD.
+2024-12-04 21:40:08,647 WARNING: No new data for ETH-USD.
+2024-12-04 21:40:08,647 WARNING: No new data for ETH-USD.
+2024-12-04 21:40:08,648 INFO: Using last known data for ETH-USD.
+2024-12-04 21:40:08,648 INFO: Using last known data for ETH-USD.
+2024-12-04 21:40:08,752 WARNING: No new data for LTC-USD.
+2024-12-04 21:40:08,752 WARNING: No new data for LTC-USD.
+2024-12-04 21:40:08,753 INFO: Using last known data for LTC-USD.
+2024-12-04 21:40:08,753 INFO: Using last known data for LTC-USD.
+2024-12-04 21:40:09,157 ERROR: portfolio_data is not a list.
+2024-12-04 21:40:09,157 ERROR: portfolio_data is not a list.
+2024-12-04 21:40:09,158 INFO: Total portfolio value: 379.99
+2024-12-04 21:40:09,158 INFO: Total portfolio value: 379.99
+2024-12-04 21:40:09,161 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:40:09,161 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:44:06,245 WARNING: No new data for BTC-USD.
+2024-12-04 21:44:06,245 WARNING: No new data for BTC-USD.
+2024-12-04 21:44:06,246 INFO: Using last known data for BTC-USD.
+2024-12-04 21:44:06,246 INFO: Using last known data for BTC-USD.
+2024-12-04 21:44:06,421 WARNING: No new data for ETH-USD.
+2024-12-04 21:44:06,421 WARNING: No new data for ETH-USD.
+2024-12-04 21:44:06,421 INFO: Using last known data for ETH-USD.
+2024-12-04 21:44:06,421 INFO: Using last known data for ETH-USD.
+2024-12-04 21:44:06,598 WARNING: No new data for LTC-USD.
+2024-12-04 21:44:06,598 WARNING: No new data for LTC-USD.
+2024-12-04 21:44:06,598 INFO: Using last known data for LTC-USD.
+2024-12-04 21:44:06,598 INFO: Using last known data for LTC-USD.
+2024-12-04 21:44:06,956 ERROR: portfolio_data is not a list.
+2024-12-04 21:44:06,956 ERROR: portfolio_data is not a list.
+2024-12-04 21:44:06,956 INFO: Total portfolio value: 379.99
+2024-12-04 21:44:06,956 INFO: Total portfolio value: 379.99
+2024-12-04 21:44:06,960 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:44:06,960 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:45:07,077 WARNING: No new data for BTC-USD.
+2024-12-04 21:45:07,077 WARNING: No new data for BTC-USD.
+2024-12-04 21:45:07,078 INFO: Using last known data for BTC-USD.
+2024-12-04 21:45:07,078 INFO: Using last known data for BTC-USD.
+2024-12-04 21:45:07,255 WARNING: No new data for ETH-USD.
+2024-12-04 21:45:07,255 WARNING: No new data for ETH-USD.
+2024-12-04 21:45:07,255 INFO: Using last known data for ETH-USD.
+2024-12-04 21:45:07,255 INFO: Using last known data for ETH-USD.
+2024-12-04 21:45:07,358 WARNING: No new data for LTC-USD.
+2024-12-04 21:45:07,358 WARNING: No new data for LTC-USD.
+2024-12-04 21:45:07,359 INFO: Using last known data for LTC-USD.
+2024-12-04 21:45:07,359 INFO: Using last known data for LTC-USD.
+2024-12-04 21:45:07,688 ERROR: portfolio_data is not a list.
+2024-12-04 21:45:07,688 ERROR: portfolio_data is not a list.
+2024-12-04 21:45:07,689 INFO: Total portfolio value: 379.99
+2024-12-04 21:45:07,689 INFO: Total portfolio value: 379.99
+2024-12-04 21:45:07,692 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:45:07,692 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:46:07,801 WARNING: No new data for BTC-USD.
+2024-12-04 21:46:07,801 WARNING: No new data for BTC-USD.
+2024-12-04 21:46:07,802 INFO: Using last known data for BTC-USD.
+2024-12-04 21:46:07,802 INFO: Using last known data for BTC-USD.
+2024-12-04 21:46:07,916 WARNING: No new data for ETH-USD.
+2024-12-04 21:46:07,916 WARNING: No new data for ETH-USD.
+2024-12-04 21:46:07,917 INFO: Using last known data for ETH-USD.
+2024-12-04 21:46:07,917 INFO: Using last known data for ETH-USD.
+2024-12-04 21:46:08,021 WARNING: No new data for LTC-USD.
+2024-12-04 21:46:08,021 WARNING: No new data for LTC-USD.
+2024-12-04 21:46:08,022 INFO: Using last known data for LTC-USD.
+2024-12-04 21:46:08,022 INFO: Using last known data for LTC-USD.
+2024-12-04 21:46:08,390 ERROR: portfolio_data is not a list.
+2024-12-04 21:46:08,390 ERROR: portfolio_data is not a list.
+2024-12-04 21:46:08,391 INFO: Total portfolio value: 379.99
+2024-12-04 21:46:08,391 INFO: Total portfolio value: 379.99
+2024-12-04 21:46:08,394 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:46:08,394 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:47:08,525 WARNING: No new data for BTC-USD.
+2024-12-04 21:47:08,525 WARNING: No new data for BTC-USD.
+2024-12-04 21:47:08,525 INFO: Using last known data for BTC-USD.
+2024-12-04 21:47:08,525 INFO: Using last known data for BTC-USD.
+2024-12-04 21:47:08,703 WARNING: No new data for ETH-USD.
+2024-12-04 21:47:08,703 WARNING: No new data for ETH-USD.
+2024-12-04 21:47:08,705 INFO: Using last known data for ETH-USD.
+2024-12-04 21:47:08,705 INFO: Using last known data for ETH-USD.
+2024-12-04 21:47:08,829 WARNING: No new data for LTC-USD.
+2024-12-04 21:47:08,829 WARNING: No new data for LTC-USD.
+2024-12-04 21:47:08,829 INFO: Using last known data for LTC-USD.
+2024-12-04 21:47:08,829 INFO: Using last known data for LTC-USD.
+2024-12-04 21:47:09,196 ERROR: portfolio_data is not a list.
+2024-12-04 21:47:09,196 ERROR: portfolio_data is not a list.
+2024-12-04 21:47:09,197 INFO: Total portfolio value: 379.99
+2024-12-04 21:47:09,197 INFO: Total portfolio value: 379.99
+2024-12-04 21:47:09,200 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:47:09,200 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:48:09,311 WARNING: No new data for BTC-USD.
+2024-12-04 21:48:09,311 WARNING: No new data for BTC-USD.
+2024-12-04 21:48:09,312 INFO: Using last known data for BTC-USD.
+2024-12-04 21:48:09,312 INFO: Using last known data for BTC-USD.
+2024-12-04 21:48:09,410 WARNING: No new data for ETH-USD.
+2024-12-04 21:48:09,410 WARNING: No new data for ETH-USD.
+2024-12-04 21:48:09,411 INFO: Using last known data for ETH-USD.
+2024-12-04 21:48:09,411 INFO: Using last known data for ETH-USD.
+2024-12-04 21:48:09,521 WARNING: No new data for LTC-USD.
+2024-12-04 21:48:09,521 WARNING: No new data for LTC-USD.
+2024-12-04 21:48:09,521 INFO: Using last known data for LTC-USD.
+2024-12-04 21:48:09,521 INFO: Using last known data for LTC-USD.
+2024-12-04 21:48:09,916 ERROR: portfolio_data is not a list.
+2024-12-04 21:48:09,916 ERROR: portfolio_data is not a list.
+2024-12-04 21:48:09,917 INFO: Total portfolio value: 379.99
+2024-12-04 21:48:09,917 INFO: Total portfolio value: 379.99
+2024-12-04 21:48:09,919 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:48:09,919 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:51:26,866 ERROR: portfolio_data is not a list.
+2024-12-04 21:51:26,866 ERROR: portfolio_data is not a list.
+2024-12-04 21:51:27,790 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:51:27,790 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:51:27,909 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:51:27,909 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:51:28,038 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:51:28,038 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:51:28,304 INFO: Buy 0.003494 BTC-USD at 100833.44, Commission: 2.64
+2024-12-04 21:51:28,304 INFO: Buy 0.003494 BTC-USD at 100833.44, Commission: 2.64
+2024-12-04 21:51:28,493 INFO: Buy 0.004045 ETH-USD at 3847.48, Commission: 0.12
+2024-12-04 21:51:28,493 INFO: Buy 0.004045 ETH-USD at 3847.48, Commission: 0.12
+2024-12-04 21:51:28,656 INFO: Buy 0.006765 LTC-USD at 129.99, Commission: 0.01
+2024-12-04 21:51:28,656 INFO: Buy 0.006765 LTC-USD at 129.99, Commission: 0.01
+2024-12-04 21:51:28,885 ERROR: portfolio_data is not a list.
+2024-12-04 21:51:28,885 ERROR: portfolio_data is not a list.
+2024-12-04 21:51:28,886 INFO: Total portfolio value: 368.89
+2024-12-04 21:51:28,886 INFO: Total portfolio value: 368.89
+2024-12-04 21:51:28,889 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:51:28,889 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:52:29,062 INFO: Appended new data for BTC-USD
+2024-12-04 21:52:29,062 INFO: Appended new data for BTC-USD
+2024-12-04 21:52:29,192 INFO: Appended new data for ETH-USD
+2024-12-04 21:52:29,192 INFO: Appended new data for ETH-USD
+2024-12-04 21:52:29,315 INFO: Appended new data for LTC-USD
+2024-12-04 21:52:29,315 INFO: Appended new data for LTC-USD
+2024-12-04 21:52:29,529 INFO: Sell 0.003494 BTC-USD at 100905.95, Commission: 2.64
+2024-12-04 21:52:29,529 INFO: Sell 0.003494 BTC-USD at 100905.95, Commission: 2.64
+2024-12-04 21:52:29,841 ERROR: portfolio_data is not a list.
+2024-12-04 21:52:29,841 ERROR: portfolio_data is not a list.
+2024-12-04 21:52:29,842 INFO: Total portfolio value: 366.49
+2024-12-04 21:52:29,842 INFO: Total portfolio value: 366.49
+2024-12-04 21:52:29,845 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:52:29,845 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:54:54,613 ERROR: portfolio_data is not a list.
+2024-12-04 21:54:54,613 ERROR: portfolio_data is not a list.
+2024-12-04 21:54:55,206 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:54:55,206 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:54:55,324 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:54:55,324 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:54:55,445 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:54:55,445 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:54:55,664 INFO: Buy 0.003384 BTC-USD at 101043.72, Commission: 2.56
+2024-12-04 21:54:55,664 INFO: Buy 0.003384 BTC-USD at 101043.72, Commission: 2.56
+2024-12-04 21:54:55,827 INFO: Buy 0.002606 ETH-USD at 3856.31, Commission: 0.08
+2024-12-04 21:54:55,827 INFO: Buy 0.002606 ETH-USD at 3856.31, Commission: 0.08
+2024-12-04 21:54:55,998 INFO: Buy 0.003330 LTC-USD at 129.29, Commission: 0.00
+2024-12-04 21:54:55,998 INFO: Buy 0.003330 LTC-USD at 129.29, Commission: 0.00
+2024-12-04 21:54:56,277 ERROR: portfolio_data is not a list.
+2024-12-04 21:54:56,277 ERROR: portfolio_data is not a list.
+2024-12-04 21:54:56,278 INFO: Total portfolio value: 352.48
+2024-12-04 21:54:56,278 INFO: Total portfolio value: 352.48
+2024-12-04 21:54:56,285 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:54:56,285 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:58:58,293 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'ETH-USD': {'quantity': 0.009365, 'average_entry_price': 3857.13}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 344.5434, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 21:58:58,293 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'ETH-USD': {'quantity': 0.009365, 'average_entry_price': 3857.13}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 344.5434, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 21:58:58,294 INFO: Last purchase info updated: {}
+2024-12-04 21:58:58,294 INFO: Last purchase info updated: {}
+2024-12-04 21:58:58,877 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:58:58,877 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:58:59,003 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:58:59,003 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:58:59,123 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:58:59,123 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:58:59,344 INFO: Buy 0.003245 BTC-USD at 101376.69, Commission: 2.47
+2024-12-04 21:58:59,344 INFO: Buy 0.003245 BTC-USD at 101376.69, Commission: 2.47
+2024-12-04 21:58:59,506 INFO: Sell 0.009365 ETH-USD at 3858.90, Commission: 0.27
+2024-12-04 21:58:59,506 INFO: Sell 0.009365 ETH-USD at 3858.90, Commission: 0.27
+2024-12-04 21:58:59,752 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'ETH-USD': {'quantity': 0.009365, 'average_entry_price': 3857.13}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 344.5434, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 21:58:59,752 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'ETH-USD': {'quantity': 0.009365, 'average_entry_price': 3857.13}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 344.5434, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 21:58:59,753 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101376.69), 'quantity': np.float64(0.003245195266811821), 'commission': np.float64(2.467403659147869), 'datetime': datetime.datetime(2024, 12, 4, 21, 58, 59, 124600)}}
+2024-12-04 21:58:59,753 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101376.69), 'quantity': np.float64(0.003245195266811821), 'commission': np.float64(2.467403659147869), 'datetime': datetime.datetime(2024, 12, 4, 21, 58, 59, 124600)}}
+2024-12-04 21:58:59,753 INFO: Total portfolio value: 382.69
+2024-12-04 21:58:59,753 INFO: Total portfolio value: 382.69
+2024-12-04 21:58:59,757 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:58:59,757 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:59:59,875 INFO: Appended new data for BTC-USD
+2024-12-04 21:59:59,875 INFO: Appended new data for BTC-USD
+2024-12-04 22:00:00,004 INFO: Appended new data for ETH-USD
+2024-12-04 22:00:00,004 INFO: Appended new data for ETH-USD
+2024-12-04 22:00:00,148 INFO: Appended new data for LTC-USD
+2024-12-04 22:00:00,148 INFO: Appended new data for LTC-USD
+2024-12-04 22:00:00,348 INFO: Buy 0.003223 BTC-USD at 101283.55, Commission: 2.45
+2024-12-04 22:00:00,348 INFO: Buy 0.003223 BTC-USD at 101283.55, Commission: 2.45
+2024-12-04 22:00:00,502 INFO: Sell 0.009365 ETH-USD at 3859.67, Commission: 0.27
+2024-12-04 22:00:00,502 INFO: Sell 0.009365 ETH-USD at 3859.67, Commission: 0.27
+2024-12-04 22:00:00,786 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'BTC-USD': {'quantity': 0.003223, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 51.34785, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:00:00,786 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'BTC-USD': {'quantity': 0.003223, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 51.34785, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:00:00,787 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101283.55), 'quantity': np.float64(0.003223892377263388), 'commission': np.float64(2.448954485903814), 'datetime': datetime.datetime(2024, 12, 4, 22, 0, 0, 149146)}}
+2024-12-04 22:00:00,787 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101283.55), 'quantity': np.float64(0.003223892377263388), 'commission': np.float64(2.448954485903814), 'datetime': datetime.datetime(2024, 12, 4, 22, 0, 0, 149146)}}
+2024-12-04 22:00:00,788 INFO: Total portfolio value: 379.77
+2024-12-04 22:00:00,788 INFO: Total portfolio value: 379.77
+2024-12-04 22:00:00,791 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:00:00,791 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:01:00,927 INFO: Appended new data for BTC-USD
+2024-12-04 22:01:00,927 INFO: Appended new data for BTC-USD
+2024-12-04 22:01:01,141 INFO: Appended new data for ETH-USD
+2024-12-04 22:01:01,141 INFO: Appended new data for ETH-USD
+2024-12-04 22:01:01,249 WARNING: No new data for LTC-USD.
+2024-12-04 22:01:01,249 WARNING: No new data for LTC-USD.
+2024-12-04 22:01:01,250 INFO: Using last known data for LTC-USD.
+2024-12-04 22:01:01,250 INFO: Using last known data for LTC-USD.
+2024-12-04 22:01:01,424 INFO: Sell 0.003223 BTC-USD at 101624.47, Commission: 2.46
+2024-12-04 22:01:01,424 INFO: Sell 0.003223 BTC-USD at 101624.47, Commission: 2.46
+2024-12-04 22:01:01,584 INFO: Buy 0.092015 ETH-USD at 3873.91, Commission: 2.67
+2024-12-04 22:01:01,584 INFO: Buy 0.092015 ETH-USD at 3873.91, Commission: 2.67
+2024-12-04 22:01:01,829 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'BTC-USD': {'quantity': 0.003223, 'average_entry_price': 101344.42}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 51.34785, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:01:01,829 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'BTC-USD': {'quantity': 0.003223, 'average_entry_price': 101344.42}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 51.34785, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:01:01,830 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101283.55), 'quantity': np.float64(0.003223892377263388), 'commission': np.float64(2.448954485903814), 'datetime': datetime.datetime(2024, 12, 4, 22, 0, 0, 149146)}, 'ETH-USD': {'price': np.float64(3873.91), 'quantity': np.float64(0.09201515274322619), 'commission': np.float64(2.673438152726335), 'datetime': datetime.datetime(2024, 12, 4, 22, 1, 1, 427890)}}
+2024-12-04 22:01:01,830 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101283.55), 'quantity': np.float64(0.003223892377263388), 'commission': np.float64(2.448954485903814), 'datetime': datetime.datetime(2024, 12, 4, 22, 0, 0, 149146)}, 'ETH-USD': {'price': np.float64(3873.91), 'quantity': np.float64(0.09201515274322619), 'commission': np.float64(2.673438152726335), 'datetime': datetime.datetime(2024, 12, 4, 22, 1, 1, 427890)}}
+2024-12-04 22:01:01,831 INFO: Total portfolio value: 380.87
+2024-12-04 22:01:01,831 INFO: Total portfolio value: 380.87
+2024-12-04 22:01:01,834 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:01:01,834 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:02:01,958 WARNING: No new data for BTC-USD.
+2024-12-04 22:02:01,958 WARNING: No new data for BTC-USD.
+2024-12-04 22:02:01,958 INFO: Using last known data for BTC-USD.
+2024-12-04 22:02:01,958 INFO: Using last known data for BTC-USD.
+2024-12-04 22:02:02,159 WARNING: No new data for ETH-USD.
+2024-12-04 22:02:02,159 WARNING: No new data for ETH-USD.
+2024-12-04 22:02:02,159 INFO: Using last known data for ETH-USD.
+2024-12-04 22:02:02,159 INFO: Using last known data for ETH-USD.
+2024-12-04 22:02:02,263 WARNING: No new data for LTC-USD.
+2024-12-04 22:02:02,263 WARNING: No new data for LTC-USD.
+2024-12-04 22:02:02,264 INFO: Using last known data for LTC-USD.
+2024-12-04 22:02:02,264 INFO: Using last known data for LTC-USD.
+2024-12-04 22:02:02,430 INFO: Sell 0.003223 BTC-USD at 101624.47, Commission: 2.46
+2024-12-04 22:02:02,430 INFO: Sell 0.003223 BTC-USD at 101624.47, Commission: 2.46
+2024-12-04 22:02:02,617 INFO: Buy 0.092015 ETH-USD at 3873.91, Commission: 2.67
+2024-12-04 22:02:02,617 INFO: Buy 0.092015 ETH-USD at 3873.91, Commission: 2.67
+2024-12-04 22:02:02,928 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:02:02,928 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:02:02,928 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101283.55), 'quantity': np.float64(0.003223892377263388), 'commission': np.float64(2.448954485903814), 'datetime': datetime.datetime(2024, 12, 4, 22, 0, 0, 149146)}, 'ETH-USD': {'price': np.float64(3873.91), 'quantity': np.float64(0.09201515274322619), 'commission': np.float64(2.673438152726335), 'datetime': datetime.datetime(2024, 12, 4, 22, 2, 2, 433161)}}
+2024-12-04 22:02:02,928 INFO: Last purchase info updated: {'BTC-USD': {'price': np.float64(101283.55), 'quantity': np.float64(0.003223892377263388), 'commission': np.float64(2.448954485903814), 'datetime': datetime.datetime(2024, 12, 4, 22, 0, 0, 149146)}, 'ETH-USD': {'price': np.float64(3873.91), 'quantity': np.float64(0.09201515274322619), 'commission': np.float64(2.673438152726335), 'datetime': datetime.datetime(2024, 12, 4, 22, 2, 2, 433161)}}
+2024-12-04 22:02:02,929 INFO: Total portfolio value: 378.50
+2024-12-04 22:02:02,929 INFO: Total portfolio value: 378.50
+2024-12-04 22:02:02,932 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:02:02,932 INFO: Trade log saved to trade_log.csv

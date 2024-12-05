@@ -1085,3 +1085,122 @@ if __name__ == '__main__':
 
 ```
 
+## Example of portfolio
+
+```python
+import os
+import json
+from coinbase.rest import RESTClient
+from dotenv import load_dotenv
+
+class PortfolioManager:
+    def __init__(self):
+        # Load environment variables from the .env file
+        load_dotenv()
+        # Retrieve API keys from environment variables
+        api_key = os.getenv("COINBASE_API_KEY").strip()
+        api_secret = os.getenv("COINBASE_API_SECRET").strip()
+        # Create the REST client
+        self.client = RESTClient(api_key=api_key, api_secret=api_secret)
+
+    def list_portfolio(self):
+        try:
+            # Endpoint to get portfolio details
+            response = self.client.get('/api/v3/brokerage/portfolios')
+            # Return the first portfolio's UUID, assuming only one for simplicity
+            portfolio_uuid = response['portfolios'][0]['uuid']
+            return portfolio_uuid
+        except Exception as e:
+            print(f"Error retrieving portfolio: {e}")
+            return None
+
+    def get_portfolio_breakdown(self, portfolio_uuid):
+        try:
+            # Endpoint to get portfolio breakdown details
+            endpoint = f'/api/v3/brokerage/portfolios/{portfolio_uuid}'
+            response = self.client.get(endpoint)
+            return response
+        except Exception as e:
+            print(f"Error retrieving portfolio breakdown: {e}")
+            return None
+
+    def filter_portfolio(self, data, asset_names, uuid_list, name_filter_mode='exclude', uuid_filter_mode='exclude'):
+        try:
+            all_positions = data['breakdown']['spot_positions']
+            
+            # Initial filtering based on asset names
+            if name_filter_mode == 'exclude':
+                name_filtered_positions = [position for position in all_positions if position['asset'] not in asset_names]
+            elif name_filter_mode == 'include':
+                name_filtered_positions = [position for position in all_positions if position['asset'] in asset_names]
+            else:
+                print(f"Unknown name_filter_mode {name_filter_mode}. Defaulting to exclude.")
+                name_filtered_positions = [position for position in all_positions if position['asset'] not in asset_names]
+            
+            # Further filtering based on asset UUIDs
+            if uuid_filter_mode == 'exclude':
+                uuid_filtered_positions = [position for position in name_filtered_positions if position['account_uuid'] not in uuid_list]
+            elif uuid_filter_mode == 'include':
+                uuid_filtered_positions = [position for position in name_filtered_positions if position['account_uuid'] in uuid_list]
+            else:
+                print(f"Unknown uuid_filter_mode {uuid_filter_mode}. Defaulting to exclude.")
+                uuid_filtered_positions = [position for position in name_filtered_positions if position['account_uuid'] not in uuid_list]
+            
+            # Final filtering based on total fiat balance < .01, Filters out DUST
+            final_filtered_positions = [position for position in uuid_filtered_positions if float(position.get('total_balance_fiat', 0)) >= 0.01]
+
+            return final_filtered_positions
+        except Exception as e:
+            print(f"Error filtering and deduplicating portfolio: {e}")
+            return []
+
+    def extract_total_cash_balance(self, data):
+        try:
+            # Extract total cash equivalent balance from portfolio_balances
+            total_cash_balance = data['breakdown']['portfolio_balances']['total_cash_equivalent_balance']['value']
+            return float(total_cash_balance)
+        except Exception as e:
+            print(f"Error extracting the total cash balance: {e}")
+            return 0.0
+```
+
+Using that class - can we alter this other file to produce the same outputs but using this live porfolio?
+
+```python
+    # this can be retrieved from the portfolio class
+    def calculate_total_portfolio_value(self, market_data):
+        total_value = self.cash  # Start with current cash balance
+        for coin, quantity in self.portfolio.items():
+            if quantity > 0:
+                # Get the current market price for this coin
+                if coin in market_data and not market_data[coin].empty:
+                    price = market_data[coin]['close'].iloc[0]
+                    total_value += quantity * price
+        print(f"Total portfolio value: {total_value:.2f}")
+        return total_value
+```
+
+Keep in mind that the data outouts already look pretty different. I think we need to standardize. The ultimate end product should contain these fields:
+
+- Datetime
+- Ticker/product ID
+- purchased/average entry price
+- current total value
+- current total position size
+- ...
+
+Here's what the data structure looks like in this current portfolio calc method. It's super small and doesn't have everything we need:
+
+```json
+Current portfolio: {'SOL-USD': np.float64(2.4640213040258004e-06), 'LTC-USD': np.float64(5.267299042395793e-08), 'BTC-USD': np.float64(6.563458385564957e-05), 'SHIB-USD': np.float64(13920.709584756922), 'ETH-USD': np.float64(9.785615643887327e-06)}
+```
+
+
+
+Here's what the data strcuture looks like in the portfolio class:
+
+```json
+[{'asset': 'ORCA', 'account_uuid': '9a7bca7f-6521-5e72-ba37-55c507ffa787', 'total_balance_fiat': 0.012838473, 'total_balance_crypto': 0.003618, 'available_to_trade_fiat': 0.012838473, 'allocation': 3.0266692e-05, 'cost_basis': {'value': '0.01077488809884377987904', 'currency': 'USD'}, 'asset_img_url': 'https://dynamic-assets.coinbase.com/dd05661e865e97a78942d6684aa1a90cb28db91e48d33942714f395e75a1a2344ed577d0228d0cae4be2f6e74af774479bbf1c7c1690f13c9f0a1c87dd684efc/asset_icons/49435e1926043887024ed42b2dd3c3a07b096bf08f419d40e22555b9d953ec32.png', 'is_cash': False, 'average_entry_price': {'value': '2.97', 'currency': 'USD'}, 'asset_uuid': 'ba24ad7b-0a8b-533d-816b-e693d9f8a871', 'available_to_trade_crypto': 0.003618, 'unrealized_pnl': 0, 'available_to_transfer_fiat': 0.012838473, 'available_to_transfer_crypto': 0.003618, 'asset_color': '#000000'}, {'asset': 'CLV', 'account_uuid': 'b9f6296c-bade-5708-8ee4-41d9f3a6b42f', 'total_balance_fiat': 0.27355093, 'total_balance_crypto': 3.082264, 'available_to_trade_fiat': 0.27355093, 'allocation': 0.0006448961, 'cost_basis': {'value': '3.005207244', 'currency': 'USD'}, 'asset_img_url': 'https://dynamic-assets.coinbase.com/2a43e81b3aa4ed326b3403253912cde99823a7bfab1e3df4aa42783a0e418c689663455524e679b892871a0c304a1025ec831c7eec619a7dca4b43a2e7df0b34/asset_icons/556d89987c2bf38e5b8d2a71636215c78cb3398ff7cf99219f67741b36a892cd.png', 'is_cash': False, 'average_entry_price': {'value': '0.98', 'currency': 'USD'}, 'asset_uuid': '453639be-192e-5e36-88e3-38496e542524', 'available_to_trade_crypto': 3.082264, 'unrealized_pnl': 0, 'available_to_transfer_fiat': 0.27355093, 'available_to_transfer_crypto': 3.082264, 'asset_color': '#42C37B'}, {'asset': 'ATOM', 'account_uuid': 'c60e9751-26d6-590e-9200-6bbb969667fb', 'total_balance_fiat': 6.8570337, 'total_balance_crypto': 0.78045, 'available_to_trade_fiat': 0.022553662, 'allocation': 0.016165452, 'cost_basis': {'value': '23.162484522848277719811', 'currency': 'USD'}, 'asset_img_url': 'https://dynamic-assets.coinbase.com/b92276a1f003b87191983dab71970a9a6d522dde514176e5880a75055af1e67ce5f153b96a2ee5ecd22729a73d3a8739b248d853bde74ab6e643bef2d1b4f88d/asset_icons/9c760bf25bca9823f9ef8d651681b779aadc71a2f543f931070034e59ef10120.png', 'is_cash': False, 'average_entry_price': {'value': '27.77', 'currency': 'USD'}, 'asset_uuid': '64c607d2-4663-5649-86e0-3ab06bba0202', 'available_to_trade_crypto': 0.002567, 'unrealized_pnl': 0, 'available_to_transfer_fiat': 0.022553662, 'available_to_transfer_crypto': 0.002567, 'asset_color': '#2E3148'}, {'asset': 'MATIC', 'account_uuid': 'd8a407a4-2036-5172-9874-920fa6e392cd', 'total_balance_fiat': 0.035018474, 'total_balance_crypto': 0.05845668, 'available_to_trade_fiat': 0.035018474, 'allocation': 8.255603e-05, 'cost_basis': {'value': '0.11543602298373518473044', 'currency': 'USD'}, 'asset_img_url': 'https://dynamic-assets.coinbase.com/085ce26e1eba2ccb210ea85df739a0ca2ef782747e47d618c64e92b168b94512df469956de1b667d93b2aa05ce77947e7bf1b4e0c7276371aa88ef9406036166/asset_icons/57f28803aad363f419a950a5f5b99acfd4fba8b683c01b9450baab43c9fa97ea.png', 'is_cash': False, 'average_entry_price': {'value': '1.90', 'currency': 'USD'}, 'asset_uuid': '026bcc1e-9163-591c-a709-34dd18b2e7a1', 'available_to_trade_crypto': 0.05845668, 'unrealized_pnl': 0, 'available_to_transfer_fiat': 0.035018474, 'available_to_transfer_crypto': 0.05845668, 'asset_color': '#8247E5'}, {'asset': 'AERO', 'account_uuid': 'e87528b6-f1d7-5e08-ac9e-975176749ffd', 'total_balance_fiat': 0.1158882, 'total_balance_crypto': 0.07934559, 'available_to_trade_fiat': 0.1158882, 'allocation': 0.00027320636, 'cost_basis': {'value': '0.092739505445482494438015', 'currency': 'USD'}, 'asset_img_url': 'https://asset-metadata-service-production.s3.amazonaws.com/asset_icons/93b9f25ca937680b4b95a49a3e50aa614c039ff1ad0abed2bf59d24fbcb99b80.png', 'is_cash': False, 'average_entry_price': {'value': '1.17', 'currency': 'USD'}, 'asset_uuid': '9476e3be-b731-47fa-82be-347fabc573d9', 'available_to_trade_crypto': 0.07934559, 'unrealized_pnl': 0, 'available_to_transfer_fiat': 0.1158882, 'available_to_transfer_crypto': 0.07934559, 'asset_color': '#0433FF'}]
+```
+
+Can you help me achieve the new one?

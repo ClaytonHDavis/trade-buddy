@@ -1,0 +1,84 @@
+2024-12-04 21:15:32,933 ERROR: portfolio_data is not a list.
+2024-12-04 21:15:32,933 ERROR: portfolio_data is not a list.
+2024-12-04 21:15:33,516 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:15:33,516 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:15:33,630 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:15:33,630 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:15:33,736 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:15:33,736 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:15:33,738 INFO: Buy 0.000095 BTC-USD at 98496.68, Commission: 0.07
+2024-12-04 21:15:33,738 INFO: Buy 0.000095 BTC-USD at 98496.68, Commission: 0.07
+2024-12-04 21:15:33,739 INFO: Buy 0.000139 ETH-USD at 3820.23, Commission: 0.00
+2024-12-04 21:15:33,739 INFO: Buy 0.000139 ETH-USD at 3820.23, Commission: 0.00
+2024-12-04 21:15:33,741 INFO: Buy 0.000233 LTC-USD at 127.47, Commission: 0.00
+2024-12-04 21:15:33,741 INFO: Buy 0.000233 LTC-USD at 127.47, Commission: 0.00
+2024-12-04 21:15:33,741 INFO: Total portfolio value: 9.93
+2024-12-04 21:15:33,741 INFO: Total portfolio value: 9.93
+2024-12-04 21:15:33,744 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:15:33,744 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:16:31,904 ERROR: portfolio_data is not a list.
+2024-12-04 21:16:31,904 ERROR: portfolio_data is not a list.
+2024-12-04 21:16:32,500 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:16:32,500 INFO: Replaced last candle for BTC-USD
+2024-12-04 21:16:32,608 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:16:32,608 INFO: Replaced last candle for ETH-USD
+2024-12-04 21:16:32,851 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:16:32,851 INFO: Replaced last candle for LTC-USD
+2024-12-04 21:16:32,852 INFO: Buy 0.000094 BTC-USD at 98543.76, Commission: 0.07
+2024-12-04 21:16:32,852 INFO: Buy 0.000094 BTC-USD at 98543.76, Commission: 0.07
+2024-12-04 21:16:32,853 INFO: Buy 0.000138 ETH-USD at 3819.29, Commission: 0.00
+2024-12-04 21:16:32,853 INFO: Buy 0.000138 ETH-USD at 3819.29, Commission: 0.00
+2024-12-04 21:16:32,854 INFO: Buy 0.000255 LTC-USD at 127.57, Commission: 0.00
+2024-12-04 21:16:32,854 INFO: Buy 0.000255 LTC-USD at 127.57, Commission: 0.00
+2024-12-04 21:16:32,854 INFO: Total portfolio value: 9.93
+2024-12-04 21:16:32,854 INFO: Total portfolio value: 9.93
+2024-12-04 21:16:32,855 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:16:32,855 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:17:33,006 INFO: Appended new data for BTC-USD
+2024-12-04 21:17:33,006 INFO: Appended new data for BTC-USD
+2024-12-04 21:17:33,116 INFO: Appended new data for ETH-USD
+2024-12-04 21:17:33,116 INFO: Appended new data for ETH-USD
+2024-12-04 21:17:33,225 INFO: Appended new data for LTC-USD
+2024-12-04 21:17:33,225 INFO: Appended new data for LTC-USD
+2024-12-04 21:17:33,226 INFO: Sell 0.000094 BTC-USD at 98674.49, Commission: 0.07
+2024-12-04 21:17:33,226 INFO: Sell 0.000094 BTC-USD at 98674.49, Commission: 0.07
+2024-12-04 21:17:33,226 INFO: Sell 0.000138 ETH-USD at 3826.02, Commission: 0.00
+2024-12-04 21:17:33,226 INFO: Sell 0.000138 ETH-USD at 3826.02, Commission: 0.00
+2024-12-04 21:17:33,226 INFO: Sell 0.000255 LTC-USD at 128.19, Commission: 0.00
+2024-12-04 21:17:33,226 INFO: Sell 0.000255 LTC-USD at 128.19, Commission: 0.00
+2024-12-04 21:17:33,227 INFO: Total portfolio value: 9.86
+2024-12-04 21:17:33,227 INFO: Total portfolio value: 9.86
+2024-12-04 21:17:33,229 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:17:33,229 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:18:33,358 INFO: Appended new data for BTC-USD
+2024-12-04 21:18:33,358 INFO: Appended new data for BTC-USD
+2024-12-04 21:18:33,485 INFO: Appended new data for ETH-USD
+2024-12-04 21:18:33,485 INFO: Appended new data for ETH-USD
+2024-12-04 21:18:33,609 INFO: Appended new data for LTC-USD
+2024-12-04 21:18:33,609 INFO: Appended new data for LTC-USD
+2024-12-04 21:18:33,610 INFO: Buy 0.000095 BTC-USD at 98714.33, Commission: 0.07
+2024-12-04 21:18:33,610 INFO: Buy 0.000095 BTC-USD at 98714.33, Commission: 0.07
+2024-12-04 21:18:33,612 INFO: Buy 0.000086 ETH-USD at 3823.84, Commission: 0.00
+2024-12-04 21:18:33,612 INFO: Buy 0.000086 ETH-USD at 3823.84, Commission: 0.00
+2024-12-04 21:18:33,613 INFO: Buy 0.000124 LTC-USD at 127.94, Commission: 0.00
+2024-12-04 21:18:33,613 INFO: Buy 0.000124 LTC-USD at 127.94, Commission: 0.00
+2024-12-04 21:18:33,613 INFO: Total portfolio value: 9.79
+2024-12-04 21:18:33,613 INFO: Total portfolio value: 9.79
+2024-12-04 21:18:33,615 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:18:33,615 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:27:27,308 WARNING: No new data for BTC-USD.
+2024-12-04 21:27:27,308 WARNING: No new data for BTC-USD.
+2024-12-04 21:27:27,309 INFO: Using last known data for BTC-USD.
+2024-12-04 21:27:27,309 INFO: Using last known data for BTC-USD.
+2024-12-04 21:27:27,607 INFO: Appended new data for ETH-USD
+2024-12-04 21:27:27,607 INFO: Appended new data for ETH-USD
+2024-12-04 21:27:27,722 INFO: Appended new data for LTC-USD
+2024-12-04 21:27:27,722 INFO: Appended new data for LTC-USD
+2024-12-04 21:27:27,724 INFO: Sell 0.000086 ETH-USD at 3827.00, Commission: 0.00
+2024-12-04 21:27:27,724 INFO: Sell 0.000086 ETH-USD at 3827.00, Commission: 0.00
+2024-12-04 21:27:27,724 INFO: Sell 0.000124 LTC-USD at 128.87, Commission: 0.00
+2024-12-04 21:27:27,724 INFO: Sell 0.000124 LTC-USD at 128.87, Commission: 0.00
+2024-12-04 21:27:27,724 INFO: Total portfolio value: 9.79
+2024-12-04 21:27:27,724 INFO: Total portfolio value: 9.79
+2024-12-04 21:27:27,727 INFO: Trade log saved to trade_log.csv
+2024-12-04 21:27:27,727 INFO: Trade log saved to trade_log.csv
