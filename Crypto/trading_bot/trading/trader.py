@@ -11,7 +11,11 @@ class LiveTrader:
         self.portfolio_manager = portfolio_manager
         self.strategy = strategy
         self.is_live_mode = is_live_mode
-        self.cash = max(10, self.portfolio_manager.extract_total_cash_balance(self._fetch_portfolio_data())) if self.is_live_mode else 10
+        if self.is_live_mode:
+            total_cash_balance = self.portfolio_manager.extract_total_cash_balance(self._fetch_portfolio_data())
+            self.cash = total_cash_balance * Config.TRADING_CASH_PERCENTAGE
+        else:
+            self.cash = Config.NON_LIVE_START_CASH        
         self.portfolio = {}  # {'coin': {'quantity': x, 'average_entry_price': y}}
         self.commission_rate = Config.COMMISSION_RATE
         self.trade_log = []
@@ -67,8 +71,12 @@ class LiveTrader:
                 'average_entry_price': average_entry_price
             }
         if self.is_live_mode:
-            # Extract the total cash balance correctly
-            self.cash = max(10, self.portfolio_manager.extract_total_cash_balance(portfolio_data))
+            # Extract the total cash balance using the configured percentage
+            total_cash_balance = self.portfolio_manager.extract_total_cash_balance(portfolio_data)
+            self.cash = total_cash_balance * Config.TRADING_CASH_PERCENTAGE
+        else:
+            self.cash = Config.NON_LIVE_START_CASH  # Ensure consistency when not in live mode
+            
         self.logger.info(f"Portfolio updated: {self.portfolio}")
         self.logger.info(f"Last purchase info updated: {self.last_purchase_info}")
 

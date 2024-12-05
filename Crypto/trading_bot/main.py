@@ -77,15 +77,22 @@ def main_trading_logic(coins, is_live_mode):
             trader.calculate_total_portfolio_value(market_data)
             trader.save_trade_log_to_csv()
             
+            #if live_move print LIVE!!!!
+            if is_live_mode:
+                logger.info("LIVE!!!")
+
             # Sleep until next iteration (e.g., 60 seconds)
             time.sleep(60)
         
+        except KeyError as e:
+            logger.error(f"KeyError: The key {e} was not found in a dictionary.")
+            logger.exception("Traceback:")
+            time.sleep(60)
         except Exception as e:
-            logger.error("Exception in main trading logic:")
-            logger.error(e)
+            logger.exception("Exception occurred in main trading logic")
             time.sleep(60)
 
 if __name__ == '__main__':
     # Define coins to trade and manage
     coins = ['DIA-USD', 'MATH-USD', 'ORN-USD','WELL-USD','KARRAT-USD']  # Example list; adjust as needed
-    main_trading_logic(coins, is_live_mode=False)  # Toggle 'is_live_mode' as needed
+    main_trading_logic(coins, is_live_mode=True)  # Toggle 'is_live_mode' as needed

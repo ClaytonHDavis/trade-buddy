@@ -30,15 +30,19 @@ class ProbabilisticStrategy(BaseStrategy):
         if len(df_candles) < 2:
             return {}
 
-        latest = df_candles.iloc[-1]
-        previous = df_candles.iloc[-2]
+        latest = df_candles.iloc[0]
+        previous = df_candles.iloc[-1]
+        total_value = 0.0
 
         # Initialize actions dictionary
         actions = {}
 
-        holding = portfolio.get(coin, {}).get('quantity', 0) > 0
+        holding = portfolio.get(coin, {}).get('quantity', 0) > 0    
 
-        if not holding:
+        if holding:
+            total_value = portfolio[coin]['quantity'] * latest['close']    
+
+        if total_value <= 1.00:
             probability = self.calculate_probability(df_candles)
             q = 1 - probability
             b = self.profit_target / self.price_move
@@ -59,7 +63,7 @@ class ProbabilisticStrategy(BaseStrategy):
             last_purchase_price = portfolio[coin].get('average_entry_price', latest['close'])
             price_increase = (latest['close'] - last_purchase_price) / last_purchase_price
 
-            if price_increase >= self.price_move:
+            if price_increase >= self.price_move and total_value >= 1.00:
                 actions['sell'] = {
                     'coin': coin,
                     'price': latest['close']

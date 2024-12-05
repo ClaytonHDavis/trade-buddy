@@ -17,6 +17,10 @@ class Config:
     PRICE_MOVE = 0.05          # Example: 0.005%
     LOOK_BACK = 100
     DROP_THRESHOLD = -0.05      # Example: -0.005%
+
+    # New configurations for cash handling
+    TRADING_CASH_PERCENTAGE = 0.98     # Use 98% of total cash balance
+    NON_LIVE_START_CASH = 1000         # Starting cash when not in live mode
     
     # Other configurations
     MARKET_DATA_PREFIX = "market_data"
