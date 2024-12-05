@@ -372,3 +372,309 @@
 2024-12-04 22:02:02,929 INFO: Total portfolio value: 378.50
 2024-12-04 22:02:02,932 INFO: Trade log saved to trade_log.csv
 2024-12-04 22:02:02,932 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:05:08,157 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:05:08,157 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:05:08,158 INFO: Last purchase info updated: {}
+2024-12-04 22:05:08,158 INFO: Last purchase info updated: {}
+2024-12-04 22:05:09,508 WARNING: No new data for DIA-USD.
+2024-12-04 22:05:09,508 WARNING: No new data for DIA-USD.
+2024-12-04 22:05:09,509 INFO: Using last known data for DIA-USD.
+2024-12-04 22:05:09,509 INFO: Using last known data for DIA-USD.
+2024-12-04 22:05:09,618 WARNING: No new data for MATH-USD.
+2024-12-04 22:05:09,618 WARNING: No new data for MATH-USD.
+2024-12-04 22:05:09,619 INFO: Using last known data for MATH-USD.
+2024-12-04 22:05:09,619 INFO: Using last known data for MATH-USD.
+2024-12-04 22:05:09,733 WARNING: No new data for ORN-USD.
+2024-12-04 22:05:09,733 WARNING: No new data for ORN-USD.
+2024-12-04 22:05:09,734 INFO: Using last known data for ORN-USD.
+2024-12-04 22:05:09,734 INFO: Using last known data for ORN-USD.
+2024-12-04 22:05:09,862 WARNING: No new data for WELL-USD.
+2024-12-04 22:05:09,862 WARNING: No new data for WELL-USD.
+2024-12-04 22:05:09,862 INFO: Using last known data for WELL-USD.
+2024-12-04 22:05:09,862 INFO: Using last known data for WELL-USD.
+2024-12-04 22:05:09,975 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:05:09,975 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:05:09,976 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:05:09,976 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:05:10,283 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:05:10,283 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:05:10,510 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:05:10,510 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:05:10,777 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:05:10,777 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:05:10,778 INFO: Last purchase info updated: {}
+2024-12-04 22:05:10,778 INFO: Last purchase info updated: {}
+2024-12-04 22:05:10,778 INFO: Total portfolio value: 377.50
+2024-12-04 22:05:10,778 INFO: Total portfolio value: 377.50
+2024-12-04 22:05:10,781 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:05:10,781 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:06:11,099 WARNING: No new data for DIA-USD.
+2024-12-04 22:06:11,099 WARNING: No new data for DIA-USD.
+2024-12-04 22:06:11,100 INFO: Using last known data for DIA-USD.
+2024-12-04 22:06:11,100 INFO: Using last known data for DIA-USD.
+2024-12-04 22:06:11,216 WARNING: No new data for MATH-USD.
+2024-12-04 22:06:11,216 WARNING: No new data for MATH-USD.
+2024-12-04 22:06:11,217 INFO: Using last known data for MATH-USD.
+2024-12-04 22:06:11,217 INFO: Using last known data for MATH-USD.
+2024-12-04 22:06:11,328 WARNING: No new data for ORN-USD.
+2024-12-04 22:06:11,328 WARNING: No new data for ORN-USD.
+2024-12-04 22:06:11,329 INFO: Using last known data for ORN-USD.
+2024-12-04 22:06:11,329 INFO: Using last known data for ORN-USD.
+2024-12-04 22:06:11,610 WARNING: No new data for WELL-USD.
+2024-12-04 22:06:11,610 WARNING: No new data for WELL-USD.
+2024-12-04 22:06:11,610 INFO: Using last known data for WELL-USD.
+2024-12-04 22:06:11,610 INFO: Using last known data for WELL-USD.
+2024-12-04 22:06:11,729 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:06:11,729 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:06:11,729 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:06:11,729 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:06:12,020 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:06:12,020 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:06:12,170 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:06:12,170 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:06:12,455 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:06:12,455 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:06:12,455 INFO: Last purchase info updated: {}
+2024-12-04 22:06:12,455 INFO: Last purchase info updated: {}
+2024-12-04 22:06:12,456 INFO: Total portfolio value: 377.50
+2024-12-04 22:06:12,456 INFO: Total portfolio value: 377.50
+2024-12-04 22:06:12,459 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:06:12,459 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:07:12,615 WARNING: No new data for DIA-USD.
+2024-12-04 22:07:12,615 WARNING: No new data for DIA-USD.
+2024-12-04 22:07:12,616 INFO: Using last known data for DIA-USD.
+2024-12-04 22:07:12,616 INFO: Using last known data for DIA-USD.
+2024-12-04 22:07:12,738 WARNING: No new data for MATH-USD.
+2024-12-04 22:07:12,738 WARNING: No new data for MATH-USD.
+2024-12-04 22:07:12,738 INFO: Using last known data for MATH-USD.
+2024-12-04 22:07:12,738 INFO: Using last known data for MATH-USD.
+2024-12-04 22:07:13,153 WARNING: No new data for ORN-USD.
+2024-12-04 22:07:13,153 WARNING: No new data for ORN-USD.
+2024-12-04 22:07:13,154 INFO: Using last known data for ORN-USD.
+2024-12-04 22:07:13,154 INFO: Using last known data for ORN-USD.
+2024-12-04 22:07:13,358 WARNING: No new data for WELL-USD.
+2024-12-04 22:07:13,358 WARNING: No new data for WELL-USD.
+2024-12-04 22:07:13,358 INFO: Using last known data for WELL-USD.
+2024-12-04 22:07:13,358 INFO: Using last known data for WELL-USD.
+2024-12-04 22:07:13,489 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:07:13,489 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:07:13,490 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:07:13,490 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:07:13,657 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:07:13,657 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:07:13,871 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:07:13,871 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:07:14,240 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:07:14,240 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:07:14,241 INFO: Last purchase info updated: {}
+2024-12-04 22:07:14,241 INFO: Last purchase info updated: {}
+2024-12-04 22:07:14,241 INFO: Total portfolio value: 377.50
+2024-12-04 22:07:14,241 INFO: Total portfolio value: 377.50
+2024-12-04 22:07:14,245 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:07:14,245 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:08:29,470 INFO: Appended new data for DIA-USD
+2024-12-04 22:08:29,470 INFO: Appended new data for DIA-USD
+2024-12-04 22:08:29,621 INFO: Appended new data for MATH-USD
+2024-12-04 22:08:29,621 INFO: Appended new data for MATH-USD
+2024-12-04 22:08:29,733 WARNING: No new data for ORN-USD.
+2024-12-04 22:08:29,733 WARNING: No new data for ORN-USD.
+2024-12-04 22:08:29,734 INFO: Using last known data for ORN-USD.
+2024-12-04 22:08:29,734 INFO: Using last known data for ORN-USD.
+2024-12-04 22:08:29,927 INFO: Appended new data for WELL-USD
+2024-12-04 22:08:29,927 INFO: Appended new data for WELL-USD
+2024-12-04 22:08:30,075 INFO: Appended new data for KARRAT-USD
+2024-12-04 22:08:30,075 INFO: Appended new data for KARRAT-USD
+2024-12-04 22:08:30,254 INFO: Sell 1.001882 DIA-USD at 0.98, Commission: 0.01
+2024-12-04 22:08:30,254 INFO: Sell 1.001882 DIA-USD at 0.98, Commission: 0.01
+2024-12-04 22:08:30,430 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:08:30,430 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:08:30,752 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:08:30,752 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:08:30,753 INFO: Last purchase info updated: {}
+2024-12-04 22:08:30,753 INFO: Last purchase info updated: {}
+2024-12-04 22:08:30,754 INFO: Total portfolio value: 377.50
+2024-12-04 22:08:30,754 INFO: Total portfolio value: 377.50
+2024-12-04 22:08:30,757 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:08:30,757 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:10:03,836 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:10:03,836 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:10:03,837 INFO: Last purchase info updated: {}
+2024-12-04 22:10:03,837 INFO: Last purchase info updated: {}
+2024-12-04 22:10:04,739 WARNING: No new data for DIA-USD.
+2024-12-04 22:10:04,739 WARNING: No new data for DIA-USD.
+2024-12-04 22:10:04,740 INFO: Using last known data for DIA-USD.
+2024-12-04 22:10:04,740 INFO: Using last known data for DIA-USD.
+2024-12-04 22:10:04,857 WARNING: No new data for MATH-USD.
+2024-12-04 22:10:04,857 WARNING: No new data for MATH-USD.
+2024-12-04 22:10:04,858 INFO: Using last known data for MATH-USD.
+2024-12-04 22:10:04,858 INFO: Using last known data for MATH-USD.
+2024-12-04 22:10:04,960 WARNING: No new data for ORN-USD.
+2024-12-04 22:10:04,960 WARNING: No new data for ORN-USD.
+2024-12-04 22:10:04,961 INFO: Using last known data for ORN-USD.
+2024-12-04 22:10:04,961 INFO: Using last known data for ORN-USD.
+2024-12-04 22:10:05,068 WARNING: No new data for WELL-USD.
+2024-12-04 22:10:05,068 WARNING: No new data for WELL-USD.
+2024-12-04 22:10:05,068 INFO: Using last known data for WELL-USD.
+2024-12-04 22:10:05,068 INFO: Using last known data for WELL-USD.
+2024-12-04 22:10:05,176 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:10:05,176 WARNING: No new data for KARRAT-USD.
+2024-12-04 22:10:05,176 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:10:05,176 INFO: Using last known data for KARRAT-USD.
+2024-12-04 22:10:05,410 INFO: Sell 1.001882 DIA-USD at 0.98, Commission: 0.01
+2024-12-04 22:10:05,410 INFO: Sell 1.001882 DIA-USD at 0.98, Commission: 0.01
+2024-12-04 22:10:05,586 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:10:05,586 INFO: Sell 0.000334 KARRAT-USD at 0.67, Commission: 0.00
+2024-12-04 22:10:05,843 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:10:05,843 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:10:05,844 INFO: Last purchase info updated: {}
+2024-12-04 22:10:05,844 INFO: Last purchase info updated: {}
+2024-12-04 22:10:05,844 INFO: Total portfolio value: 377.50
+2024-12-04 22:10:05,844 INFO: Total portfolio value: 377.50
+2024-12-04 22:10:05,846 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:10:05,846 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:11:05,981 INFO: Appended new data for DIA-USD
+2024-12-04 22:11:05,981 INFO: Appended new data for DIA-USD
+2024-12-04 22:11:06,093 INFO: Appended new data for MATH-USD
+2024-12-04 22:11:06,093 INFO: Appended new data for MATH-USD
+2024-12-04 22:11:06,334 INFO: Appended new data for ORN-USD
+2024-12-04 22:11:06,334 INFO: Appended new data for ORN-USD
+2024-12-04 22:11:06,449 INFO: Appended new data for WELL-USD
+2024-12-04 22:11:06,449 INFO: Appended new data for WELL-USD
+2024-12-04 22:11:06,579 INFO: Appended new data for KARRAT-USD
+2024-12-04 22:11:06,579 INFO: Appended new data for KARRAT-USD
+2024-12-04 22:11:06,764 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:11:06,764 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:11:06,940 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:11:06,940 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:11:07,277 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:11:07,277 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:11:07,278 INFO: Last purchase info updated: {}
+2024-12-04 22:11:07,278 INFO: Last purchase info updated: {}
+2024-12-04 22:11:07,278 INFO: Total portfolio value: 377.49
+2024-12-04 22:11:07,278 INFO: Total portfolio value: 377.49
+2024-12-04 22:11:07,282 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:11:07,282 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:12:07,426 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:12:07,426 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:12:07,544 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:12:07,544 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:12:07,649 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:12:07,649 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:12:07,770 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:12:07,770 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:12:07,884 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:12:07,884 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:12:08,068 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:12:08,068 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:12:08,224 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:12:08,224 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:12:08,554 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:12:08,554 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:12:08,554 INFO: Last purchase info updated: {}
+2024-12-04 22:12:08,554 INFO: Last purchase info updated: {}
+2024-12-04 22:12:08,555 INFO: Total portfolio value: 377.49
+2024-12-04 22:12:08,555 INFO: Total portfolio value: 377.49
+2024-12-04 22:12:08,556 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:12:08,556 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:13:08,685 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:13:08,685 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:13:08,816 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:13:08,816 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:13:08,944 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:13:08,944 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:13:09,059 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:13:09,059 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:13:09,173 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:13:09,173 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:13:09,370 INFO: Sell 1.001882 DIA-USD at 0.98, Commission: 0.01
+2024-12-04 22:13:09,370 INFO: Sell 1.001882 DIA-USD at 0.98, Commission: 0.01
+2024-12-04 22:13:09,520 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:13:09,520 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:13:09,843 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:13:09,843 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:13:09,844 INFO: Last purchase info updated: {}
+2024-12-04 22:13:09,844 INFO: Last purchase info updated: {}
+2024-12-04 22:13:09,844 INFO: Total portfolio value: 377.50
+2024-12-04 22:13:09,844 INFO: Total portfolio value: 377.50
+2024-12-04 22:13:09,845 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:13:09,845 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:13:50,673 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:13:50,673 INFO: Portfolio updated: {'USDC-USD': {'quantity': 0.020344, 'average_entry_price': 1.0}, 'SHIB-USD': {'quantity': 0.57318103, 'average_entry_price': 0.0}, 'LTC-USD': {'quantity': 0.015344, 'average_entry_price': 130.59}, 'ATOM-USD': {'quantity': 0.78045, 'average_entry_price': 27.77}, 'WAXL-USD': {'quantity': 0.008865, 'average_entry_price': 0.71}, 'USD-USD': {'quantity': 376.50894, 'average_entry_price': 1.0}, 'SOL-USD': {'quantity': 4e-09, 'average_entry_price': 147.66}, 'VELO-USD': {'quantity': 0.06872598, 'average_entry_price': 0.11}, 'ORCA-USD': {'quantity': 0.003618, 'average_entry_price': 2.97}, 'DIA-USD': {'quantity': 1.0018828, 'average_entry_price': 0.88}, 'KARRAT-USD': {'quantity': 0.00033461, 'average_entry_price': 0.48}, 'GALA-USD': {'quantity': 83.45304, 'average_entry_price': 0.24}, 'CLV-USD': {'quantity': 3.082264, 'average_entry_price': 0.98}, 'XLM-USD': {'quantity': 0.0097245, 'average_entry_price': 0.23}, 'GRT-USD': {'quantity': 0.00284233, 'average_entry_price': 0.63}, 'MATIC-USD': {'quantity': 0.05845668, 'average_entry_price': 1.9}, 'AERO-USD': {'quantity': 0.07934559, 'average_entry_price': 1.17}}
+2024-12-04 22:13:50,674 INFO: Last purchase info updated: {}
+2024-12-04 22:13:50,674 INFO: Last purchase info updated: {}
+2024-12-04 22:13:51,688 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:13:51,688 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:13:51,807 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:13:51,807 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:13:51,934 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:13:51,934 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:13:52,055 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:13:52,055 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:13:52,161 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:13:52,161 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:13:52,162 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:13:52,162 INFO: Sell 1.001882 DIA-USD at 0.97, Commission: 0.01
+2024-12-04 22:13:52,164 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:13:52,164 INFO: Sell 0.000334 KARRAT-USD at 0.68, Commission: 0.00
+2024-12-04 22:13:52,164 INFO: Total portfolio value: 10.97
+2024-12-04 22:13:52,164 INFO: Total portfolio value: 10.97
+2024-12-04 22:13:52,167 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:13:52,167 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:14:52,303 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:14:52,303 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:14:52,441 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:14:52,441 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:14:52,552 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:14:52,552 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:14:52,710 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:14:52,710 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:14:52,822 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:14:52,822 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:14:52,823 INFO: Total portfolio value: 10.97
+2024-12-04 22:14:52,823 INFO: Total portfolio value: 10.97
+2024-12-04 22:14:52,825 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:14:52,825 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:15:52,934 WARNING: No new data for DIA-USD.
+2024-12-04 22:15:52,934 WARNING: No new data for DIA-USD.
+2024-12-04 22:15:52,935 INFO: Using last known data for DIA-USD.
+2024-12-04 22:15:52,935 INFO: Using last known data for DIA-USD.
+2024-12-04 22:15:53,053 INFO: Appended new data for MATH-USD
+2024-12-04 22:15:53,053 INFO: Appended new data for MATH-USD
+2024-12-04 22:15:53,160 INFO: Appended new data for ORN-USD
+2024-12-04 22:15:53,160 INFO: Appended new data for ORN-USD
+2024-12-04 22:15:53,280 INFO: Appended new data for WELL-USD
+2024-12-04 22:15:53,280 INFO: Appended new data for WELL-USD
+2024-12-04 22:15:53,390 INFO: Appended new data for KARRAT-USD
+2024-12-04 22:15:53,390 INFO: Appended new data for KARRAT-USD
+2024-12-04 22:15:53,391 INFO: Total portfolio value: 10.97
+2024-12-04 22:15:53,391 INFO: Total portfolio value: 10.97
+2024-12-04 22:15:53,393 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:15:53,393 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:16:53,533 INFO: Appended new data for DIA-USD
+2024-12-04 22:16:53,533 INFO: Appended new data for DIA-USD
+2024-12-04 22:16:53,655 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:16:53,655 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:16:53,776 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:16:53,776 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:16:53,885 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:16:53,885 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:16:54,016 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:16:54,016 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:16:54,018 INFO: Total portfolio value: 10.97
+2024-12-04 22:16:54,018 INFO: Total portfolio value: 10.97
+2024-12-04 22:16:54,019 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:16:54,019 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:17:54,146 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:17:54,146 INFO: Replaced last candle for DIA-USD
+2024-12-04 22:17:54,282 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:17:54,282 INFO: Replaced last candle for MATH-USD
+2024-12-04 22:17:54,396 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:17:54,396 INFO: Replaced last candle for ORN-USD
+2024-12-04 22:17:54,516 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:17:54,516 INFO: Replaced last candle for WELL-USD
+2024-12-04 22:17:54,631 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:17:54,631 INFO: Replaced last candle for KARRAT-USD
+2024-12-04 22:17:54,633 INFO: Total portfolio value: 10.97
+2024-12-04 22:17:54,633 INFO: Total portfolio value: 10.97
+2024-12-04 22:17:54,635 INFO: Trade log saved to trade_log.csv
+2024-12-04 22:17:54,635 INFO: Trade log saved to trade_log.csv

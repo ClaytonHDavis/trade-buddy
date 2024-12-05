@@ -31,7 +31,7 @@ def main_trading_logic(coins, is_live_mode):
     # Initialize cumulative data for all coins
     cumulative_data = {}
     for coin in coins:
-        df = data_fetcher.get_bar_data(coin, 'ONE_MINUTE', Config.DATA_FETCH_LIMIT).copy()
+        df = data_fetcher.get_bar_data(coin, 'FIVE_MINUTE', Config.DATA_FETCH_LIMIT).copy()
         if not df.empty:
             cumulative_data[coin] = df
             save_market_data_to_csv(df, coin)
@@ -44,7 +44,7 @@ def main_trading_logic(coins, is_live_mode):
         try:
             market_data = {}
             for coin in coins:
-                df_new = data_fetcher.get_bar_data(coin, 'ONE_MINUTE', limit=1)
+                df_new = data_fetcher.get_bar_data(coin, 'FIVE_MINUTE', limit=1)
                 if not df_new.empty:
                     df_new = df_new.sort_values(by='time').reset_index(drop=True)
                     last_time = cumulative_data[coin]['time'].max() if not cumulative_data[coin].empty else None
@@ -87,5 +87,5 @@ def main_trading_logic(coins, is_live_mode):
 
 if __name__ == '__main__':
     # Define coins to trade and manage
-    coins = ['BTC-USD', 'ETH-USD', 'LTC-USD']  # Example list; adjust as needed
-    main_trading_logic(coins, is_live_mode=True)  # Toggle 'is_live_mode' as needed
+    coins = ['DIA-USD', 'MATH-USD', 'ORN-USD','WELL-USD','KARRAT-USD']  # Example list; adjust as needed
+    main_trading_logic(coins, is_live_mode=False)  # Toggle 'is_live_mode' as needed
