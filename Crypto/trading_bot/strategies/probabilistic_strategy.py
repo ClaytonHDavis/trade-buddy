@@ -18,57 +18,62 @@ class ProbabilisticStrategy(BaseStrategy):
         self.drop_threshold = drop_threshold
 
     def evaluate(self, coin: str, df_candles: pd.DataFrame, portfolio: dict, cash: float) -> dict:
-        """
-        Evaluate the strategy for a specific coin and decide on trades.
-
-        :param coin: The trading pair, e.g., 'BTC-USD'.
-        :param df_candles: DataFrame containing historical candle data for the coin.
-        :param portfolio: Current portfolio holdings.
-        :param cash: Available cash.
-        :return: Dictionary with actions, e.g., {'buy': {'coin': 'BTC', 'quantity': 0.1}, 'sell': {'coin': 'ETH'}}
-        """
         if len(df_candles) < 2:
             return {}
+        # Ensure DataFrame is sorted in ascending order
+        df_candles = df_candles.sort_values(by='time').reset_index(drop=True)
+        latest = df_candles.iloc[-1]
+        previous = df_candles.iloc[-2]
+        #change since last candle
+        price_change = (latest['close'] - previous['close']) / previous['close']
+        total_value = 0
 
-        latest = df_candles.iloc[0]
-        previous = df_candles.iloc[-1]
-        total_value = 0.0
 
-        # Initialize actions dictionary
         actions = {}
-
-        holding = portfolio.get(coin, {}).get('quantity', 0) > 0    
-
+        holding = portfolio.get(coin, {}).get('quantity', 0) > 0 
         if holding:
-            total_value = portfolio[coin]['quantity'] * latest['close']    
+            total_value = portfolio[coin]['quantity'] * latest['close']
 
-        if total_value <= 1.00:
-            probability = self.calculate_probability(df_candles)
-            q = 1 - probability
-            b = self.profit_target / self.price_move
-            f_star = (b * probability - q) / b
-            f_star = max(0, f_star)  # Ensure non-negative
+        #Sell
+        if total_value >= 1:
+            # Retrieve last purchase price properly
+            if 'average_entry_price' in portfolio[coin]:
+                print(f"Portfolio: {portfolio}")
 
-            available_cash = cash
-            max_quantity = (available_cash * f_star) / latest['close']
+                last_purchase_price = portfolio[coin]['average_entry_price']
+                price_increase = (latest['close'] - last_purchase_price) / last_purchase_price
+                print(f"Evaluating sell for {coin}")
+                print(f"Current price: {latest['close']:.4f}")
+                print(f"Last purchase price: {last_purchase_price:.4f}")
+                print(f"Price increase: {price_increase:.4f}")
+                print(f"Price move threshold: {self.price_move:.4f}")
+                if price_increase >= self.price_move and total_value >= 1:
+                    actions['sell'] = {
+                        'coin': coin,
+                        'quantity': portfolio[coin]['quantity'],  # Specify the quantity to sell
+                        'price': latest['close']
+                    }
+            else:
+                # Handle the case where average_entry_price is missing
+                print(f"Average entry price not found for {coin} in portfolio.")
 
-            if max_quantity > 0:
+        #Buy
+        else:
+            #print evaluating buy
+            print(f"Evaluating buy for {coin}")
+            print(f"Current price: {latest['close']:.4f}")
+            print(f"Previous price: {previous['close']:.4f}")
+            print(f"Price drop threshold: {self.drop_threshold:.4f}")
+            print(f"Price change: {price_change:.4f}")
+            print(f"Available cash: {cash:.2f}")
+
+            max_quantity = cash*.90/ latest['close']
+            if max_quantity > 0 and price_change <= self.drop_threshold:
                 actions['buy'] = {
                     'coin': coin,
                     'quantity': max_quantity,
                     'price': latest['close']
                 }
-
-        else:
-            last_purchase_price = portfolio[coin].get('average_entry_price', latest['close'])
-            price_increase = (latest['close'] - last_purchase_price) / last_purchase_price
-
-            if price_increase >= self.price_move and total_value >= 1.00:
-                actions['sell'] = {
-                    'coin': coin,
-                    'price': latest['close']
-                }
-
         return actions
 
     def calculate_probability(self, df_candles: pd.DataFrame) -> float:

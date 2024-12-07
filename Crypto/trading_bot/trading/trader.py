@@ -1,87 +1,90 @@
-from external.coinbase_portfolio import PortfolioManager
-from external.coinbase_make_transactions import place_market_order
+# trader.py
 from config.config import Config
 from datetime import datetime
 import pandas as pd
 from utils.logger import setup_logger
+from trading.modes import Mode
+from external.coinbase_portfolio import PortfolioManager
+from external.coinbase_make_transactions import place_market_order  # Only needed for live mode
 
-class LiveTrader:
-    def __init__(self, portfolio_manager: PortfolioManager, strategy, is_live_mode: bool = True):
+class Trader:
+    def __init__(self, strategy, mode: Mode, portfolio_manager: PortfolioManager = None):
         self.logger = setup_logger()
-        self.portfolio_manager = portfolio_manager
         self.strategy = strategy
-        self.is_live_mode = is_live_mode
-        if self.is_live_mode:
-            total_cash_balance = self.portfolio_manager.extract_total_cash_balance(self._fetch_portfolio_data())
-            self.cash = total_cash_balance * Config.TRADING_CASH_PERCENTAGE
-        else:
-            self.cash = Config.NON_LIVE_START_CASH        
-        self.portfolio = {}  # {'coin': {'quantity': x, 'average_entry_price': y}}
+        self.mode = mode
         self.commission_rate = Config.COMMISSION_RATE
         self.trade_log = []
         self.last_purchase_info = {}
-        self.update_portfolio()
+
+        if self.mode == Mode.LIVE:
+            if portfolio_manager is None:
+                raise ValueError("PortfolioManager must be provided in live mode.")
+            self.portfolio_manager = portfolio_manager
+            total_cash_balance = self.portfolio_manager.extract_total_cash_balance(self._fetch_portfolio_data())
+            self.cash = total_cash_balance * Config.TRADING_CASH_PERCENTAGE
+            self.update_portfolio()
+        else:
+            self.cash = Config.NON_LIVE_START_CASH
+            self.portfolio = {}  # {'coin': {'quantity': x, 'average_entry_price': y}}
 
     def _fetch_portfolio_data(self):
         portfolio_uuid = self.portfolio_manager.list_portfolio()
         return self.portfolio_manager.get_portfolio_breakdown(portfolio_uuid)
 
     def update_portfolio(self):
-        portfolio_data = self._fetch_portfolio_data()
-        # Log the portfolio data for debugging
-        self.logger.debug(f"Fetched portfolio data: {portfolio_data}")
-        print(portfolio_data)
-        
-        # Extract the positions list
-        if not isinstance(portfolio_data, dict):
-            self.logger.error("portfolio_data is not a dictionary.")
-            return
+        if self.mode == Mode.LIVE:
+            portfolio_data = self._fetch_portfolio_data()
+            # Log the portfolio data for debugging
+            #self.logger.debug(f"Fetched portfolio data: {portfolio_data}")
+            # Extract the positions list
+            if not isinstance(portfolio_data, dict):
+                self.logger.error("portfolio_data is not a dictionary.")
+                return
 
-        positions = portfolio_data.get('breakdown', {}).get('spot_positions', [])
-        
-        # Validate positions
-        if not isinstance(positions, list):
-            self.logger.error("Positions data is not a list.")
-            return
-        if not all(isinstance(position, dict) for position in positions):
-            self.logger.error("Not all items in positions are dictionaries.")
-            return
+            positions = portfolio_data.get('breakdown', {}).get('spot_positions', [])
 
-        self.portfolio = {}
-        for position in positions:
-            asset = position.get('asset')
-            if not asset:
-                self.logger.warning(f"Position without asset: {position}")
-                continue
-            coin = f"{asset}-USD"
-            price_info = position.get('average_entry_price', {'value': '0', 'currency': 'USD'})
-            try:
-                average_entry_price = float(price_info.get('value', 0))
-            except ValueError:
-                self.logger.error(f"Invalid average_entry_price: {price_info.get('value')}")
-                average_entry_price = 0.0
-            quantity = position.get('total_balance_crypto', 0)
-            try:
-                quantity = float(quantity)
-            except ValueError:
-                self.logger.error(f"Invalid quantity for {coin}: {quantity}")
-                quantity = 0.0
-            self.portfolio[coin] = {
-                'quantity': quantity,
-                'average_entry_price': average_entry_price
-            }
-        if self.is_live_mode:
+            # Validate positions
+            if not isinstance(positions, list):
+                self.logger.error("Positions data is not a list.")
+                return
+            if not all(isinstance(position, dict) for position in positions):
+                self.logger.error("Not all items in positions are dictionaries.")
+                return
+
+            self.portfolio = {}
+            for position in positions:
+                asset = position.get('asset')
+                if not asset:
+                    self.logger.warning(f"Position without asset: {position}")
+                    continue
+                coin = f"{asset}-USD"
+                price_info = position.get('average_entry_price', {'value': '0', 'currency': 'USD'})
+                try:
+                    average_entry_price = float(price_info.get('value', 0))
+                except ValueError:
+                    self.logger.error(f"Invalid average_entry_price: {price_info.get('value')}")
+                    average_entry_price = 0.0
+                quantity = position.get('total_balance_crypto', 0)
+                try:
+                    quantity = float(quantity)
+                except ValueError:
+                    self.logger.error(f"Invalid quantity for {coin}: {quantity}")
+                    quantity = 0.0
+                self.portfolio[coin] = {
+                    'quantity': quantity,
+                    'average_entry_price': average_entry_price
+                }
             # Extract the total cash balance using the configured percentage
             total_cash_balance = self.portfolio_manager.extract_total_cash_balance(portfolio_data)
             self.cash = total_cash_balance * Config.TRADING_CASH_PERCENTAGE
+            self.logger.info(f"Portfolio updated: {self.portfolio}")
+            self.logger.info(f"Last purchase info updated: {self.last_purchase_info}")
         else:
-            self.cash = Config.NON_LIVE_START_CASH  # Ensure consistency when not in live mode
-            
-        self.logger.info(f"Portfolio updated: {self.portfolio}")
-        self.logger.info(f"Last purchase info updated: {self.last_purchase_info}")
+            # In paper or backtest mode, the portfolio is managed locally
+            pass
 
     def calculate_total_portfolio_value(self, market_data: dict) -> float:
-        if self.is_live_mode:
+        if self.mode == Mode.LIVE:
             self.update_portfolio()
         total_value = self.cash
         for coin, data in self.portfolio.items():
@@ -118,11 +121,10 @@ class LiveTrader:
         })
         self.logger.info(f"{action} {quantity:.6f} {coin} at {price:.2f}, Commission: {commission_fee:.2f}")
 
-    def buy(self, coin: str, price: float, quantity: float):
+    def buy(self, coin: str, price: float, quantity: float, trade_datetime):
         cost = price * quantity
         commission_fee = self.commission(cost)
         total_cost = cost + commission_fee
-        trade_datetime = datetime.now()
         if self.cash >= total_cost:
             self.cash -= total_cost
             if coin in self.portfolio:
@@ -144,15 +146,15 @@ class LiveTrader:
                 'commission': commission_fee,
                 'datetime': trade_datetime
             }
-            # Round down quantity to 6 decimal places
+            # Round down quantity to 6 decimal places for live trading
             rounded_quantity = int(quantity * 1_000_000) / 1_000_000
-            if self.is_live_mode:
+            if self.mode == Mode.LIVE:
                 place_market_order(coin, rounded_quantity, 'BUY')
-            self.log_trade('Buy', coin, price, rounded_quantity, trade_datetime)
+            self.log_trade('Buy', coin, price, quantity, trade_datetime)
         else:
             self.logger.warning(f"Not enough cash to complete the purchase for {coin}.")
 
-    def sell(self, coin: str, price: float):
+    def sell(self, coin: str, price: float, trade_datetime):
         quantity = self.portfolio.get(coin, {}).get('quantity', 0)
         if quantity > 0:
             revenue = price * quantity
@@ -162,26 +164,27 @@ class LiveTrader:
             purchase_info = self.last_purchase_info.get(coin, {})
             purchase_price = purchase_info.get('price', 0)
             profit = (price - purchase_price) * quantity - (purchase_info.get('commission', 0) + commission_fee)
-            # Round down quantity to 6 decimal places
+            # Round down quantity to 6 decimal places for live trading
             rounded_quantity = int(quantity * 1_000_000) / 1_000_000
-            if self.is_live_mode:
+            if self.mode == Mode.LIVE:
                 place_market_order(coin, rounded_quantity, 'SELL')
-            self.log_trade('Sell', coin, price, rounded_quantity, datetime.now(), profit)
+            self.log_trade('Sell', coin, price, quantity, trade_datetime, profit)
             self.portfolio[coin]['quantity'] = 0
         else:
             self.logger.warning(f"No holdings to sell for {coin}.")
 
+    
     def execute_strategy(self, coin: str, df_candles: pd.DataFrame):
-        """
-        Execute the strategy for a specific coin.
-
-        :param coin: The trading pair, e.g., 'BTC-USD'.
-        :param df_candles: DataFrame containing historical candle data for the coin.
-        """
+        """Execute the strategy for a specific coin."""
         actions = self.strategy.evaluate(coin, df_candles, self.portfolio, self.cash)
+        # Extract the trade datetime from the last candlestick
+        trade_datetime = df_candles['time'].iloc[-1]
         if 'buy' in actions:
             buy_action = actions['buy']
-            self.buy(buy_action['coin'], buy_action['price'], buy_action['quantity'])
+            price = buy_action.get('price', df_candles['close'].iloc[-1])
+            quantity = buy_action['quantity']
+            self.buy(buy_action['coin'], price, quantity, trade_datetime)
         if 'sell' in actions:
             sell_action = actions['sell']
-            self.sell(sell_action['coin'], sell_action['price'])
+            price = sell_action.get('price', df_candles['close'].iloc[-1])
+            self.sell(sell_action['coin'], price, trade_datetime)
