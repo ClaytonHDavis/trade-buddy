@@ -106,7 +106,7 @@ class Trader:
     def commission(self, amount: float) -> float:
         return amount * self.commission_rate
 
-    def log_trade(self, action: str, coin: str, price: float, quantity: float, trade_datetime: datetime, profit: float = 0):
+    def log_trade(self, action: str, coin: str, price: float, quantity: float, trade_datetime, profit: float = 0):
         commission_fee = self.commission(price * quantity)
         self.trade_log.append({
             'Datetime': trade_datetime,
@@ -176,7 +176,7 @@ class Trader:
     
     def execute_strategy(self, coin: str, df_candles: pd.DataFrame):
         """Execute the strategy for a specific coin."""
-        actions = self.strategy.evaluate(coin, df_candles, self.portfolio, self.cash)
+        actions = self.strategy.evaluate(coin, df_candles, self.portfolio, self.cash,self.last_purchase_info)
         # Extract the trade datetime from the last candlestick
         trade_datetime = df_candles['time'].iloc[-1]
         if 'buy' in actions:

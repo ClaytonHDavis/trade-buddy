@@ -143,6 +143,6 @@ def main_trading_logic(coins, mode):
 
 if __name__ == '__main__':
     # Define coins to trade and manage
-    coins = ['DIA-USD', 'MATH-USD', 'ORN-USD', 'WELL-USD', 'KARRAT-USD']  # Adjust as needed
+    coins = ['DIA-USD', 'MATH-USD', 'ORN-USD', 'WELL-USD', 'KARRAT-USD','ALGO-USD','ASM-USD','SUI-USD']  # Adjust as needed
     mode = Mode.BACKTEST  # Change to Mode.LIVE or Mode.PAPER as needed
     main_trading_logic(coins, mode)

@@ -885,7 +885,7 @@ Design the system to support running multiple strategies simultaneously, possibl
 ## **5. Conclusion**
 
 Transitioning to a modular architecture enhances the scalability, maintainability, and flexibility of your trading bot. By encapsulating your existing strategy within this structure, you set a strong foundation for future expansions, such as integrating new strategies, adding more assets, or incorporating additional data sources.
-
+ß
 Remember, the key to successful refactoring is to proceed incrementally, ensuring each new module functions correctly before moving on to the next. This approach minimizes disruptions and allows you to test and validate each component thoroughly.
 
 Feel free to ask for further clarifications or assistance with specific parts of this refactoring process!
